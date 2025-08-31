@@ -1,0 +1,497 @@
+{
+    "f": {
+        "password": "1",
+        "Gender": "Male",
+        "subjects": [
+            "Math",
+            "Physics",
+            "Chemistry",
+            "English",
+            "History"
+        ],
+        "constraints": [
+            {
+                "type": "exclude_subject_day",
+                "subject": "Math",
+                "day": "Sun"
+            },
+            {
+                "type": "exclude_subject_day",
+                "subject": "Math",
+                "day": "Thu"
+            },
+            {
+                "type": "restrict_subject_to_hours",
+                "subject": "English",
+                "allowed_hours": [
+                    18,
+                    19
+                ],
+                "day": "Wed"
+            },
+            {
+                "type": "exclude_subject_time",
+                "subject": "Chemistry",
+                "day": "Fri",
+                "hour": 17
+            },
+            {
+                "type": "restrict_subject_to_hours",
+                "subject": "Chemistry",
+                "allowed_hours": [
+                    15,
+                    16,
+                    17
+                ],
+                "day": "Wed"
+            },
+            {
+                "type": "exclude_subject_day",
+                "subject": "Physics",
+                "day": "Thu"
+            }
+        ],
+        "hours": {
+            "math": 8,
+            "physics": 1,
+            "chemistry": 6,
+            "english": 18,
+            "history": 12
+        },
+        "scores": {
+            "math": 50,
+            "physics": 60,
+            "chemistry": 100,
+            "english": 100,
+            "history": 80
+        },
+        "preferences": [
+            "constraint_exclude_subject_day_Math",
+            "constraint_exclude_subject_day_Math",
+            "constraint_restrict_subject_to_hours_Chemistry",
+            "constraint_exclude_subject_day_Physics"
+        ],
+        "study_time": 45,
+        "attendance": 79,
+        "tutoring_sessions": 2,
+        "school_type": "Public",
+        "parental_education_level": "Post Graduate",
+        "teacher_quality": "Medium",
+        "prev_exam_score": 78.0,
+        "sleep_hours": 7.0,
+        "physical_activity": 3.0
+    },
+    "a": {
+        "password": "1",
+        "Gender": "Male",
+        "subjects": [
+            "Math",
+            "Physics",
+            "Chemistry",
+            "English",
+            "History"
+        ],
+        "constraints": [],
+        "hours": {
+            "math": 7,
+            "physics": 5,
+            "chemistry": 4,
+            "english": 14,
+            "history": 16
+        },
+        "scores": {
+            "math": 80,
+            "physics": 80,
+            "chemistry": 31,
+            "english": 67,
+            "history": 80
+        },
+        "preferences": [],
+        "study_time": 46,
+        "attendance": 90,
+        "tutoring_sessions": 1,
+        "school_type": "Public",
+        "parental_education_level": "Post Graduate",
+        "teacher_quality": "Medium",
+        "prev_exam_score": 67.6
+    },
+    "usmanali": {
+        "password": "1",
+        "Gender": "Male",
+        "subjects": [
+            "Math",
+            "Physics",
+            "Chemistry",
+            "English",
+            "History"
+        ],
+        "constraints": [],
+        "hours": {
+            "math": 0,
+            "physics": 0,
+            "chemistry": 0,
+            "english": 0,
+            "history": 0
+        },
+        "scores": {
+            "math": 80,
+            "physics": 80,
+            "chemistry": 80,
+            "english": 80,
+            "history": 80
+        },
+        "preferences": [],
+        "study_time": 0,
+        "attendance": 90,
+        "tutoring_sessions": 2,
+        "sleep_hours": 7.0,
+        "physical_activity": 3.0,
+        "school_type": "Public",
+        "parental_education_level": "",
+        "teacher_quality": "",
+        "prev_exam_score": 80.0
+    },
+    "u": {
+        "password": "1",
+        "Gender": "Male",
+        "subjects": [
+            "Math",
+            "Physics",
+            "Chemistry",
+            "English",
+            "History",
+            "Computer"
+        ],
+        "constraints": [
+            {
+                "type": "restrict_subject_to_hours",
+                "subject": "English",
+                "allowed_hours": [
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "day": "Mon"
+            }
+        ],
+        "hours": {
+            "math": 95,
+            "physics": 90,
+            "chemistry": 96,
+            "english": 65,
+            "history": 87,
+            "computer": 0
+        },
+        "scores": {
+            "math": 80,
+            "physics": 80,
+            "chemistry": 80,
+            "english": 80,
+            "history": 80,
+            "computer": 80
+        },
+        "preferences": [
+            "constraint_restrict_subject_to_hours_English"
+        ],
+        "study_time": 433,
+        "attendance": 90,
+        "tutoring_sessions": 2,
+        "sleep_hours": 7.0,
+        "physical_activity": 3.0,
+        "school_type": "Private",
+        "parental_education_level": "Post Graduate",
+        "teacher_quality": "Medium",
+        "prev_exam_score": 80.0
+    },
+    "u1": {
+        "password": "1",
+        "Gender": "Male",
+        "subjects": [
+            "Math",
+            "Physics",
+            "Chemistry",
+            "English",
+            "History"
+        ],
+        "constraints": [],
+        "hours": {
+            "math": 100,
+            "physics": 90,
+            "chemistry": 95,
+            "english": 80,
+            "history": 85
+        },
+        "scores": {
+            "math": 80,
+            "physics": 80,
+            "chemistry": 80,
+            "english": 80,
+            "history": 80
+        },
+        "preferences": [],
+        "study_time": 450,
+        "attendance": 80,
+        "tutoring_sessions": 1,
+        "sleep_hours": 6.0,
+        "physical_activity": 6.0,
+        "school_type": "Public",
+        "parental_education_level": "College",
+        "teacher_quality": "High",
+        "prev_exam_score": 80.0
+    },
+    "alice": {
+        "password": "alice",
+        "Gender": "Male",
+        "subjects": [
+            "Math",
+            "Physics",
+            "Chemistry",
+            "English",
+            "History"
+        ],
+        "constraints": [],
+        "hours": {
+            "math": 0,
+            "physics": 0,
+            "chemistry": 0,
+            "english": 0,
+            "history": 0
+        },
+        "scores": {
+            "math": 80,
+            "physics": 80,
+            "chemistry": 80,
+            "english": 80,
+            "history": 80
+        },
+        "preferences": [],
+        "study_time": 0,
+        "attendance": 90,
+        "tutoring_sessions": 2,
+        "sleep_hours": 7.0,
+        "physical_activity": 3.0,
+        "school_type": "Public",
+        "parental_education_level": "",
+        "teacher_quality": "",
+        "prev_exam_score": 80.0
+    },
+    "aliceMan": {
+        "password": "aliceMan",
+        "Gender": "Male",
+        "subjects": [
+            "Math",
+            "Physics",
+            "Chemistry",
+            "English",
+            "History"
+        ],
+        "constraints": [],
+        "hours": {
+            "math": 3,
+            "physics": 2,
+            "chemistry": 0,
+            "english": 0,
+            "history": 0
+        },
+        "scores": {
+            "math": 80,
+            "physics": 80,
+            "chemistry": 80,
+            "english": 80,
+            "history": 80
+        },
+        "preferences": [],
+        "study_time": 5,
+        "attendance": 90,
+        "tutoring_sessions": 2,
+        "sleep_hours": 7.0,
+        "physical_activity": 3.0,
+        "school_type": "Public",
+        "parental_education_level": "",
+        "teacher_quality": "",
+        "prev_exam_score": 80.0
+    },
+    "newmember": {
+        "password": "new",
+        "Gender": "Male",
+        "subjects": [
+            "Math",
+            "Physics",
+            "Chemistry",
+            "English",
+            "History"
+        ],
+        "constraints": [],
+        "hours": {
+            "math": 1,
+            "physics": 1,
+            "chemistry": 1,
+            "english": 40,
+            "history": 10
+        },
+        "scores": {
+            "math": 80,
+            "physics": 80,
+            "chemistry": 80,
+            "english": 80,
+            "history": 80
+        },
+        "preferences": [],
+        "study_time": 53,
+        "attendance": 90,
+        "tutoring_sessions": 2,
+        "sleep_hours": 7.0,
+        "physical_activity": 3.0,
+        "school_type": "Public",
+        "parental_education_level": "College",
+        "teacher_quality": "",
+        "prev_exam_score": 80.0
+    },
+    "new": {
+        "password": "new",
+        "Gender": "Male",
+        "subjects": [
+            "Math",
+            "Physics",
+            "Chemistry",
+            "English",
+            "History"
+        ],
+        "constraints": [],
+        "hours": {
+            "math": 10,
+            "physics": 34,
+            "chemistry": 10,
+            "english": 20,
+            "history": 4
+        },
+        "scores": {
+            "math": 80,
+            "physics": 80,
+            "chemistry": 80,
+            "english": 80,
+            "history": 80
+        },
+        "preferences": [],
+        "study_time": 78,
+        "attendance": 90,
+        "tutoring_sessions": 2,
+        "sleep_hours": 7.0,
+        "physical_activity": 3.0,
+        "school_type": "Public",
+        "parental_education_level": "",
+        "teacher_quality": "",
+        "prev_exam_score": 80.0
+    },
+    "aNew": {
+        "password": "anwe",
+        "Gender": "Male",
+        "subjects": [
+            "Math",
+            "Physics",
+            "Chemistry",
+            "English",
+            "History"
+        ],
+        "constraints": [],
+        "hours": {
+            "math": 0,
+            "physics": 0,
+            "chemistry": 0,
+            "english": 0,
+            "history": 0
+        },
+        "scores": {
+            "math": 80,
+            "physics": 80,
+            "chemistry": 80,
+            "english": 80,
+            "history": 80
+        },
+        "preferences": [],
+        "study_time": 0,
+        "attendance": 90,
+        "tutoring_sessions": 2,
+        "sleep_hours": 7.0,
+        "physical_activity": 3.0,
+        "school_type": "Public",
+        "parental_education_level": "",
+        "teacher_quality": "",
+        "prev_exam_score": 80.0
+    },
+    "smith": {
+        "password": "smith",
+        "Gender": "Male",
+        "subjects": [
+            "Math",
+            "Physics",
+            "Chemistry",
+            "English",
+            "History"
+        ],
+        "constraints": [],
+        "hours": {
+            "math": 5,
+            "physics": 4,
+            "chemistry": 3,
+            "english": 2,
+            "history": 6
+        },
+        "scores": {
+            "math": 80,
+            "physics": 80,
+            "chemistry": 80,
+            "english": 80,
+            "history": 80
+        },
+        "preferences": [],
+        "study_time": 20,
+        "attendance": 90,
+        "tutoring_sessions": 2,
+        "sleep_hours": 7.0,
+        "physical_activity": 3.0,
+        "school_type": "Public",
+        "parental_education_level": "",
+        "teacher_quality": "",
+        "prev_exam_score": 80.0
+    },
+    "adm.inara": {
+        "password": "1",
+        "Gender": "Male",
+        "subjects": [
+            "Math",
+            "Physics",
+            "Chemistry",
+            "English",
+            "History"
+        ],
+        "constraints": [],
+        "hours": {
+            "math": 0,
+            "physics": 0,
+            "chemistry": 0,
+            "english": 0,
+            "history": 0
+        },
+        "scores": {
+            "math": 80,
+            "physics": 80,
+            "chemistry": 80,
+            "english": 80,
+            "history": 80
+        },
+        "preferences": [],
+        "study_time": 0,
+        "attendance": 90,
+        "tutoring_sessions": 2,
+        "sleep_hours": 7.0,
+        "physical_activity": 3.0,
+        "school_type": "Public",
+        "parental_education_level": "",
+        "teacher_quality": "",
+        "prev_exam_score": 80.0
+    }
+}

@@ -1,0 +1,13 @@
+myenv1/
+__pycache__/
+*.pyc
+*.pkl
+*.cbm
+*.h5
+*.png
+*.csv
+catboost_info/
+plots/
+scores/
+config.bat
+node_modules
